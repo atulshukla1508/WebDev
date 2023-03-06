@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px  ;
+    margin-top: 50px;
+}
+
+.headerList{
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: 'Red Rose', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color:rgb(255,194,51)
+}
+
+.headerLogo, .headerList{
+    cursor: pointer;
+}
+
+.littleButton{
+    padding: 12px 30px;
+    background-color: #FF515F;
+    border: none;
+    font-family: 'Red Rose', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color:white;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.mainSection{
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+}
+
+.mainHeading{
+    font-family: 'Dela Gothic One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 114px;
+    color: #FFC233;
+}
+
+.mainButton{
+    background-color: rgb(255,81,95);
+    font-family: 'Red Rose', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    border:none;
+    padding: 24px 32px;
+    margin-top: 64px ;
+    cursor: pointer;
+}
+
+.bottomLogo{
+    position:absolute;
+    bottom: 20px;
+    right: 40px;   
+}
+
+
